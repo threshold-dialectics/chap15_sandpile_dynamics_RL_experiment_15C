@@ -1,0 +1,11 @@
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.5
+scipy>=1.9
+
+# Reinforcement-learning ecosystem
+gymnasium>=0.28
+stable-baselines3[extra]>=2.3.0   # installs core SB3 + extras (cloudpickle, dill, etc.)
+torch>=2.0                        # PyTorch backend required by SB3
+tqdm>=4.66                        # progress bars used by stable-baselines3
